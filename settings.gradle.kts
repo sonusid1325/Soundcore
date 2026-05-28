@@ -20,6 +20,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // Fallback for KMP artifacts that return 403 from repo.maven.apache.org on CI runners
+        maven { setUrl("https://repo1.maven.org/maven2/") }
         maven { setUrl("https://central.sonatype.com/repository/maven-snapshots/") }
         maven { setUrl("https://jitpack.io") }
     }
