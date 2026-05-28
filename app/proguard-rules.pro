@@ -100,11 +100,11 @@
 
 ## Queue Persistence Rules
 # Keep queue-related classes to prevent serialization issues in release builds
--keep class moe.koiverse.archivetune.models.PersistQueue { *; }
--keep class moe.koiverse.archivetune.models.PersistPlayerState { *; }
--keep class moe.koiverse.archivetune.models.QueueData { *; }
--keep class moe.koiverse.archivetune.models.QueueType { *; }
--keep class moe.koiverse.archivetune.playback.queues.** { *; }
+-keep class app.sonusid.soundcore.models.PersistQueue { *; }
+-keep class app.sonusid.soundcore.models.PersistPlayerState { *; }
+-keep class app.sonusid.soundcore.models.QueueData { *; }
+-keep class app.sonusid.soundcore.models.QueueType { *; }
+-keep class app.sonusid.soundcore.playback.queues.** { *; }
 
 # Keep serialization methods for queue persistence
 -keepclassmembers class * implements java.io.Serializable {

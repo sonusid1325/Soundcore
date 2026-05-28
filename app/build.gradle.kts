@@ -16,11 +16,11 @@ if (localPropertiesFile.exists()) {
 }
 
 android {
-    namespace = "moe.koiverse.archivetune"
+    namespace = "app.sonusid.soundcore"
     compileSdk = 37
 
     defaultConfig {
-    applicationId = "moe.koiverse.archivetune"
+    applicationId = "app.sonusid.soundcore"
         minSdk = 26
         targetSdk = 37
         versionCode = 134

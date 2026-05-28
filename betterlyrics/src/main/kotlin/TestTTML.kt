@@ -1,12 +1,12 @@
 /*
- * ArchiveTune (2026)
+ * SoundCore (2026)
  * © Chartreux Westia — github.com/koiverse
  * GPL-3.0 License | Contributors: see git history
  * Do not remove or alter this notice. - Per GPL-3.0 Section 4 & Section 5
  */
 
 
-import moe.koiverse.archivetune.betterlyrics.TTMLParser
+import app.sonusid.soundcore.betterlyrics.TTMLParser
 
 fun main(args: Array<String>) {
     val ttml = """

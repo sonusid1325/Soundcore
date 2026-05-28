@@ -39,7 +39,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:usesCleartextTraffic="true"
         android:supportsRtl="false"
-        android:theme="@style/Theme.ArchiveTune"
+        android:theme="@style/Theme.SoundCore"
         tools:targetApi="tiramisu">
         <uses-library
             android:name="org.apache.http.legacy"
@@ -49,7 +49,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTask"
-            android:theme="@style/Theme.ArchiveTune"
+            android:theme="@style/Theme.SoundCore"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -69,7 +69,7 @@
 
                 <data
                     android:host="together"
-                    android:scheme="archivetune" />
+                    android:scheme="soundcore" />
             </intent-filter>
 
             <!-- Youtube filter -->
@@ -245,13 +245,13 @@
             android:name=".DebugActivity"
             android:exported="true"
             android:process=":crash"
-            android:theme="@style/Theme.ArchiveTune">
+            android:theme="@style/Theme.SoundCore">
         </activity>
 
         <activity
             android:name=".ui.screens.settings.PoTokenExtractionActivity"
             android:exported="false"
-            android:theme="@style/Theme.ArchiveTune" />
+            android:theme="@style/Theme.SoundCore" />
     </application>
 
 </manifest>

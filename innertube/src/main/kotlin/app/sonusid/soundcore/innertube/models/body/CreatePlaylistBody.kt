@@ -1,0 +1,29 @@
+/*
+ * SoundCore (2026)
+ * © Chartreux Westia — github.com/koiverse
+ * GPL-3.0 License | Contributors: see git history
+ * Do not remove or alter this notice. - Per GPL-3.0 Section 4 & Section 5
+ */
+
+
+
+
+
+package app.sonusid.soundcore.innertube.models.body
+
+import app.sonusid.soundcore.innertube.models.Context
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class CreatePlaylistBody(
+    val context: Context,
+    val title: String,
+    val privacyStatus: String = PrivacyStatus.PRIVATE,
+    val videoIds: List<String>? = null
+) {
+    object PrivacyStatus {
+        const val PRIVATE = "PRIVATE"
+        const val PUBLIC = "PUBLIC"
+        const val UNLISTED = "UNLISTED"
+    }
+}

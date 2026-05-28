@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Upstream InnerTune strings --><!-- Do not add new features here --><!-- Try to re-use strings here, but be careful on its usage e.g. verb vs noun --><!-- "InnerTune" is replaced with "ArchiveTune" --><!-- Translators: Do not modify this file for translations, use InnerTune\'s Weblate instead. --><resources>
+<!-- Upstream InnerTune strings --><!-- Do not add new features here --><!-- Try to re-use strings here, but be careful on its usage e.g. verb vs noun --><!-- "InnerTune" is replaced with "SoundCore" --><!-- Translators: Do not modify this file for translations, use InnerTune\'s Weblate instead. --><resources>
     <!-- Bottom navigation -->
     <string name="home">Ana sayfa</string>
     <string name="songs">Şarkılar</string>
@@ -474,7 +474,7 @@
     <string name="backup_create_failed">Yedekleme oluşturulamadı</string>
     <string name="restore_failed">Yedekleme geri yüklenemedi</string>
     <string name="discord_integration">Discord Entegrasyonu</string>
-    <string name="discord_information">ArchiveTune, Discord hesabınızın durumunu ayarlamak için KizzyRPC kütüphanesini kullanır. Bu, Discord\'un Hizmet Şartları\'nın ihlali olarak değerlendirilebilecek Discord Ağ Geçidi bağlantısını kullanılır. Bununla birlikte, bu nedenle kullanıcı hesaplarının askıya alındığı bilinen bir durum bulunmuyor. Kullanım riski size aittir. ArchiveTune yalnızca token\'ınızı çıkaracak ve geri kalan her şey yerel olarak saklanacaktır.</string>
+    <string name="discord_information">SoundCore, Discord hesabınızın durumunu ayarlamak için KizzyRPC kütüphanesini kullanır. Bu, Discord\'un Hizmet Şartları\'nın ihlali olarak değerlendirilebilecek Discord Ağ Geçidi bağlantısını kullanılır. Bununla birlikte, bu nedenle kullanıcı hesaplarının askıya alındığı bilinen bir durum bulunmuyor. Kullanım riski size aittir. SoundCore yalnızca token\'ınızı çıkaracak ve geri kalan her şey yerel olarak saklanacaktır.</string>
     <string name="dismiss">Reddet</string>
     <string name="options">Seçenekler</string>
     <string name="preview">Önizleme</string>
@@ -603,9 +603,9 @@
     <string name="update_notification_channel_name">Uygulama Güncellemeleri</string>
     <string name="update_notification_channel_desc">Yeni uygulama güncellemeleri için bildirimler</string>
     <string name="update_notification_title">Güncelleme Mevcut</string>
-    <string name="update_notification_text">ArchiveTune %s artık mevcut</string>
+    <string name="update_notification_text">SoundCore %s artık mevcut</string>
     <string name="download">İndir</string>
-    <string name="permissions_title">ArchiveTune\'un en iyi şekilde çalışmasına izin verin</string>
+    <string name="permissions_title">SoundCore\'un en iyi şekilde çalışmasına izin verin</string>
     <string name="permissions_subtitle">Müziğinizi güvenilir bir şekilde oynatmak ve yönetmek için birkaç izin kullanıyoruz. Bunları istediğiniz zaman sistem ayarlarından değiştirebilirsiniz.</string>
     <string name="permission_storage_title">Depolama erişimi</string>
     <string name="permission_storage_desc">İndirdiğiniz ve yerel ses dosyalarınızı oynatmak üzere okumak için gereklidir.</string>

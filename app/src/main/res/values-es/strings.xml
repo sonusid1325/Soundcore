@@ -333,8 +333,8 @@
     <string name="custom_value">Valor personalizado</string>
     <string name="new_library_design">Nuevo diseño de biblioteca</string>
     <string name="new_library_design_description">Habilita el nuevo diseño de la biblioteca (puede ser inestable)</string>
-    <string name="archivetune_canvas">ArchiveTune Canvas</string>
-    <string name="archivetune_canvas_desc">Animar la portada del álbum mientras se reproduce (Impulsado por BetterLyrics)</string>
+    <string name="soundcore_canvas">SoundCore Canvas</string>
+    <string name="soundcore_canvas_desc">Animar la portada del álbum mientras se reproduce (Impulsado por BetterLyrics)</string>
     <string name="show_button1_description">Alternar la visibilidad del botón 1 en Discord Rich Presence</string>
     <string name="show_button2_description">Alternar la visibilidad del botón 2 en Discord Rich Presence</string>
     <string name="discord_activity_type">Tipo de actividad</string>
@@ -473,7 +473,7 @@
     <string name="restore_success">Copia de seguridad restaurada con éxito</string>
     <string name="restore_failed">No se pudo restaurar la copia de seguridad</string>
     <string name="discord_integration">Integración con Discord</string>
-    <string name="discord_information">ArchiveTune utiliza la librería de KizzyRPC para establecer el estado en tu cuenta de Discord. Esto involucra que Discord utilice una conexión de puerta de enlace, lo que se consideraría una violación a los Términos y Condiciones de Discord. Sin embargo, no existen casos de usuarios siendo suspendidos por esta razón. Úsalo bajo tu propio riesgo. ArchiveTune no extrae tu token y, todo se almacena de forma local.</string>
+    <string name="discord_information">SoundCore utiliza la librería de KizzyRPC para establecer el estado en tu cuenta de Discord. Esto involucra que Discord utilice una conexión de puerta de enlace, lo que se consideraría una violación a los Términos y Condiciones de Discord. Sin embargo, no existen casos de usuarios siendo suspendidos por esta razón. Úsalo bajo tu propio riesgo. SoundCore no extrae tu token y, todo se almacena de forma local.</string>
     <string name="options">Opciones</string>
     <string name="preview">Vista previa</string>
     <string name="enable_discord_rpc">Activa Rich Presence</string>
@@ -519,7 +519,7 @@
     <string name="select_language">Selecciona el idioma</string>
     <string name="close_dialog">Cerrar</string>
     <string name="select_dialog">Seleccionar</string>
-    <string name="support_github">Inicia ArchiveTune!</string>
+    <string name="support_github">Inicia SoundCore!</string>
     <string name="new_update_available">Nueva actualización disponible</string>
     <string name="release_notes_unavailable">Las notas de la versión no están disponibles</string>
     <string name="update_text">Actualizar</string>
@@ -619,9 +619,9 @@
     <string name="update_notification_channel_name">Actualizaciones de la aplicación</string>
     <string name="update_notification_channel_desc">Notificaciones para nuevas actualizaciones de la aplicación</string>
     <string name="update_notification_title">Actualización Disponible</string>
-    <string name="update_notification_text">ArchiveTune %s esta ahora disponible</string>
+    <string name="update_notification_text">SoundCore %s esta ahora disponible</string>
     <string name="download">Descargar</string>
-    <string name="permissions_title">Permite a ArchiveTune a trabajar mejor</string>
+    <string name="permissions_title">Permite a SoundCore a trabajar mejor</string>
     <string name="permissions_subtitle">Utilizamos un par de permisos para reproducir y administrar tu música de forma fiable. Puedes cambiar esto en los ajustes del sistema cuando quieras.</string>
     <string name="permission_storage_title">Acceso al almacenamiento</string>
     <string name="permission_storage_desc">Requerido para leer tus descargas y para reproducir tus audios locales.</string>
@@ -635,7 +635,7 @@
     <string name="allow">Permitir</string>
     <string name="you_might_like">Tal vez te guste</string>
     <string name="refresh_suggestions">Actualizar sugerencias</string>
-    <string name="music_together">Juntos con ArchiveTune Music</string>
+    <string name="music_together">Juntos con SoundCore Music</string>
     <string name="together_display_name">Mostrar nombre</string>
     <string name="together_display_name_placeholder">Tú nombre</string>
     <string name="together_port">Puerto de sesión</string>
@@ -691,10 +691,10 @@
     <string name="together_error_state">Error</string>
     <string name="got_it">Entendido</string>
     <string name="together_dont_show_again">No mostrar esto nuevamente</string>
-    <string name="together_welcome_title">Bienvenido a ArchiveTune Music Together</string>
+    <string name="together_welcome_title">Bienvenido a SoundCore Music Together</string>
     <string name="together_welcome_body">Music Together permite que múltiples dispositivos compartan una sesión en vivo con una cola y reproducción sincronizadas.</string>
     <string name="together_welcome_host_title">Organizar una sesión</string>
-    <string name="together_welcome_host_body">Pulsa \"comenzar sesión\", después comparte el enlace de sesión. Mantén ArchiveTune abierto en segundo plano mientras alojas.</string>
+    <string name="together_welcome_host_body">Pulsa \"comenzar sesión\", después comparte el enlace de sesión. Mantén SoundCore abierto en segundo plano mientras alojas.</string>
     <string name="stream_bypass_proxy">Proxy de derivación para transmisiones</string>
     <string name="stream_bypass_proxy_desc">Utiliza tu dirección IP directa para la reproducción de transmisiones y evita las incompatibilidades de IP</string>
     <string name="speed_dial">Marcación rápida</string>
@@ -708,7 +708,7 @@
     <string name="remove_from_speed_dial">Eliminar de los contactos de marcación rápida</string>
     <string name="sort_by_most_played">Los más escuchados</string>
     <string name="no_matching_playlists">No hay listas de reproducción que coincidan</string>
-    <string name="archivetune_canvas_v7_desc">No disponible con el estilo de reproductor «Inmersivo»</string>
+    <string name="soundcore_canvas_v7_desc">No disponible con el estilo de reproductor «Inmersivo»</string>
     <string name="blur_intensity">Intensidad del desenfoque</string>
     <string name="blur_intensity_value">%1$d dp</string>
     <string name="slider_style_standard">Estandar</string>
@@ -717,9 +717,9 @@
     <string name="slider_style_circular">Circular</string>
     <string name="slider_style_simple">Sencillo</string>
     <string name="playback_confirmation_required">Se requiere confirmación de reproducción</string>
-    <string name="playback_requires_youtube_music_confirmation">Confirma la reproducción en YouTube Music y, a continuación, vuelve a ArchiveTune.</string>
+    <string name="playback_requires_youtube_music_confirmation">Confirma la reproducción en YouTube Music y, a continuación, vuelve a SoundCore.</string>
     <string name="playback_login_refresh_required">Actualizar el inicio de sesión en YouTube Music</string>
-    <string name="playback_requires_youtube_music_login_refresh">Actualiza tu sesión de YouTube Music y, a continuación, vuelve a ArchiveTune.</string>
+    <string name="playback_requires_youtube_music_login_refresh">Actualiza tu sesión de YouTube Music y, a continuación, vuelve a SoundCore.</string>
     <string name="pause_on_device_mute">Pausar cuando el dispositivo este en silencio</string>
     <string name="pause_on_device_mute_desc">Pausar automáticamente la música cuando se pone en silenco y reanudarla cuando se activa el sonido</string>
     <string name="wakelock">Mantener la cpu activa durante la reproducción</string>
@@ -762,7 +762,7 @@
     <string name="no_visitor_data">No hay datos de visitantes disponibles. No se pueden generar tokens.</string>
     <string name="extracting_from_url">Extrayendo tokens de la URL…</string>
     <string name="po_token_account_notice_title">Utiliza la misma cuenta</string>
-    <string name="po_token_account_notice_body">Inicia sesión aquí con la misma cuenta de Google que ya utilizas para YouTube Music dentro de ArchiveTune antes de generar un token PO.</string>
+    <string name="po_token_account_notice_body">Inicia sesión aquí con la misma cuenta de Google que ya utilizas para YouTube Music dentro de SoundCore antes de generar un token PO.</string>
     <string name="po_token_account_notice_same_account">Si esta WebView utiliza una cuenta diferente, el token generado no funcionará correctamente.</string>
     <string name="po_token_account_notice_mismatch">Utiliza la cuenta correspondiente, completa el proceso de inicio de sesión y, a continuación, abre youtube.com/account y genera el token desde esa página.</string>
     <string name="mood_and_genres_supporting">Reproduce por sensación, época o género</string>
@@ -827,7 +827,7 @@
     <string name="aod_mode_exit">Desactivar pantalla siempre encendida</string>
     <string name="error_malformed_stream">Error en la fuente</string>
     <string name="support_development_title">Apoyar el desarrollo</string>
-    <string name="support_development_message">¡Hola! Soy Koiverse, el desarrollador de ArchiveTune. Si ArchiveTune se ha ganado un hueco en tu rutina diaria de música, puedes ayudar a que siga adelante haciendo una donación o marcando el proyecto como favorito en GitHub. Gracias por apoyar el trabajo que hay detrás de la aplicación.</string>
+    <string name="support_development_message">¡Hola! Soy Koiverse, el desarrollador de SoundCore. Si SoundCore se ha ganado un hueco en tu rutina diaria de música, puedes ayudar a que siga adelante haciendo una donación o marcando el proyecto como favorito en GitHub. Gracias por apoyar el trabajo que hay detrás de la aplicación.</string>
     <string name="support_development_donate">Haz una donación para apoyar el desarrollo</string>
     <string name="support_development_star">Marcar como favorito en GitHub</string>
     <string name="later">Más tarde</string>
