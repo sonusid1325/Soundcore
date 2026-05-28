@@ -108,3 +108,7 @@ core.*
 # AI code review
 /.qodo/
 /.github/copilot-instructions.md
+# Keystores — never commit these
+*.jks
+*.keystore
+keystore.b64

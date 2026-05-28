@@ -93,9 +93,8 @@ jobs:
       # ── 4. Decode keystore from secret ────────────────────────────────────
       - name: Decode keystore
         run: |
-          mkdir -p app/keystore
-          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > app/keystore/release.keystore
-          echo "✅ Keystore decoded to app/keystore/release.keystore"
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > app/soundcore-release.jks
+          echo "✅ Keystore decoded to app/soundcore-release.jks"
 
       # ── 5. Resolve Gradle task & artifact names ───────────────────────────
       - name: Resolve variant names
