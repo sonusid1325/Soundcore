@@ -24,7 +24,7 @@ import app.sonusid.soundcore.utils.getAsync
 
 object TogetherOnlineEndpoint {
     private const val EndpointSourceUrl =
-        "https://raw.githubusercontent.com/koiverse/SoundCore/refs/heads/dev/SoundCoreKoiverseServer.txt"
+        "https://raw.githubusercontent.com/sonusid1325/Soundcore/refs/heads/main/ArchiveTuneKoiverseServer.txt"
 
     private const val CacheTtlMs: Long = 6 * 60 * 60 * 1000L
 

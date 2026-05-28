@@ -212,7 +212,7 @@ object Updater {
         cachedEtag: String?,
     ): ReleasesNetworkResult {
         val response: HttpResponse =
-            client.get("https://api.github.com/repos/koiverse/SoundCore/releases?per_page=$perPage") {
+            client.get("https://api.github.com/repos/sonusid1325/Soundcore/releases?per_page=$perPage") {
                 headers {
                     append("Accept", "application/vnd.github+json")
                     append("User-Agent", "SoundCore")
@@ -267,7 +267,7 @@ object Updater {
     suspend fun getCommitHistory(count: Int = 20, branch: String = "dev"): Result<List<GitCommit>> =
         runCatching {
             val response =
-                client.get("https://api.github.com/repos/koiverse/SoundCore/commits?sha=$branch&per_page=$count")
+                client.get("https://api.github.com/repos/sonusid1325/Soundcore/commits?sha=$branch&per_page=$count")
                     .bodyAsText()
             val jsonArray = JSONArray(response)
             val commits = mutableListOf<GitCommit>()
@@ -289,7 +289,7 @@ object Updater {
         }
 
     fun getLatestDownloadUrl(): String {
-        val baseUrl = "https://github.com/koiverse/SoundCore/releases/latest/download/"
+        val baseUrl = "https://github.com/sonusid1325/Soundcore/releases/latest/download/"
         return baseUrl + "app-${BuildConfig.DEVICE}-${BuildConfig.ARCHITECTURE}-release.apk"
     }
 

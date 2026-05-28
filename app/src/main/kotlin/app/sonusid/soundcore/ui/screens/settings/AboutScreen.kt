@@ -293,8 +293,8 @@ fun AboutScreen(
             runCatching {
                 fetchRepoContributorsNetwork(
                     client = httpClient,
-                    owner = "koiverse",
-                    repo = "SoundCore",
+                    owner = "sonusid1325",
+                    repo = "Soundcore",
                     cachedEtag = cachedEtag,
                 )
             }.getOrNull()
@@ -466,7 +466,7 @@ fun AboutScreen(
 
             Row {
                 IconButton(
-                    onClick = { uriHandler.openUri("https://github.com/koiverse/soundcore") },
+                    onClick = { uriHandler.openUri("https://github.com/sonusid1325/Soundcore") },
                 ) {
                     Icon(
                         painter = painterResource(R.drawable.github),
